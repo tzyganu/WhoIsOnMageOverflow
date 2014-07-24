@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Easylife_MageOverflow extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       Easylife
+ * @package        Easylife_MageOverflow
+ * @copyright      Copyright (c) 2014
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <system>
+                        <children>
+                            <config>
+                                <children>
+                                    <easylife_mageoverflow translate="title" module="easylife_mageoverflow">
+                                        <title>MageOverflow</title>
+                                    </easylife_mageoverflow>
+                                </children>
+                            </config>
+                        </children>
+                    </system>
+                    <easylife_mageoverflow translate="title" module="easylife_mageoverflow">
+                        <title>Who is on MageOverflow?</title>
+                        <sort_order>75</sort_order>
+                    </easylife_mageoverflow>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+    <menu>
+        <easylife_mageoverflow translate="title" module="easylife_mageoverflow">
+            <title>Who is on MageOverflow?</title>
+            <action>adminhtml/mageoverflow_overflowuser</action>
+            <sort_order>75</sort_order>
+        </easylife_mageoverflow>
+    </menu>
+</config>

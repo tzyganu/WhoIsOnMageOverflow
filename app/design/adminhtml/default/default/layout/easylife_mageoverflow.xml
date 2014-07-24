@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Easylife_MageOverflow extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       Easylife
+ * @package        Easylife_MageOverflow
+ * @copyright      Copyright (c) 2014
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+--> 
+<layout>
+    <adminhtml_mageoverflow_overflowuser_index>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>easylife_mageoverflow</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="easylife_mageoverflow/adminhtml_overflowuser" name="overflowuser" />
+        </reference>
+    </adminhtml_mageoverflow_overflowuser_index>
+    <adminhtml_mageoverflow_overflowuser_grid>
+        <block type="core/text_list" name="root" output="toHtml">
+            <block type="easylife_mageoverflow/adminhtml_overflowuser_grid" name="overflowuser_grid"/>
+        </block>
+    </adminhtml_mageoverflow_overflowuser_grid>
+    <!-- Overflowuser add/edit action -->
+    <adminhtml_mageoverflow_overflowuser_edit>
+        <update handle="editor"/>
+        <reference name="menu">
+            <action method="setActive">
+                <menupath>easylife_mageoverflow</menupath>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="easylife_mageoverflow/adminhtml_overflowuser_edit" name="overflowuser_edit"></block>
+        </reference>
+        <reference name="left">
+            <block type="easylife_mageoverflow/adminhtml_overflowuser_edit_tabs" name="overflowuser_tabs"></block>
+        </reference>
+    </adminhtml_mageoverflow_overflowuser_edit>
+</layout>

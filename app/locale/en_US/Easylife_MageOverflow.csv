@@ -1,0 +1,37 @@
+Action,Action
+"Add MageOverflow User","Add MageOverflow User"
+"Add mageoverflow user","Add mageoverflow user"
+"Are you sure?","Are you sure?"
+"Avatar link","Avatar link"
+CSV,CSV
+"Could not find mageoverflow user to delete.","Could not find mageoverflow user to delete."
+Delete,Delete
+"Delete MageOverflow User","Delete MageOverflow User"
+"Does not exist","Does not exist"
+Edit,Edit
+"Edit MageOverflow User '%s'","Edit MageOverflow User '%s'"
+Excel,Excel
+"Is awake","Is awake"
+"Is sleeping","Is sleeping"
+"Last seen","Last seen"
+MageOverflow,MageOverflow
+"MageOverflow User","MageOverflow User"
+"MageOverflow User was successfully deleted.","MageOverflow User was successfully deleted."
+"MageOverflow User was successfully saved","MageOverflow User was successfully saved"
+"MageOverflow Users","MageOverflow Users"
+Name,Name
+"Please select mageoverflow users to delete.","Please select mageoverflow users to delete."
+"Save And Continue Edit","Save And Continue Edit"
+"Save MageOverflow User","Save MageOverflow User"
+Status,Status
+"The ID of the MageOverflow user","The ID of the MageOverflow user"
+"There was a problem saving the mageoverflow user.","There was a problem saving the mageoverflow user."
+"There was an error deleting mageoverflow user.","There was an error deleting mageoverflow user."
+"There was an error deleting mageoverflow users.","There was an error deleting mageoverflow users."
+"This mageoverflow user no longer exists.","This mageoverflow user no longer exists."
+"Total of %d mageoverflow users were successfully deleted.","Total of %d mageoverflow users were successfully deleted."
+"Unable to find mageoverflow user to save.","Unable to find mageoverflow user to save."
+"User Id","User Id"
+"Was never seen","Was never seen"
+"Who is on MageOverflow?","Who is on MageOverflow?"
+XML,XML

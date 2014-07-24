@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Easylife_MageOverflow extension
+ * 
+ * NOTICE OF LICENSE
+ * 
+ * This source file is subject to the MIT License
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/mit-license.php
+ * 
+ * @category       Easylife
+ * @package        Easylife_MageOverflow
+ * @copyright      Copyright (c) 2014
+ * @license        http://opensource.org/licenses/mit-license.php MIT License
+ */
+-->
+<config>
+    <modules>
+        <Easylife_MageOverflow>
+            <version>1.0.0</version>
+        </Easylife_MageOverflow>
+    </modules>
+    <global>
+        <resources>
+            <easylife_mageoverflow_setup>
+                <setup>
+                    <module>Easylife_MageOverflow</module>
+                    <class>Easylife_MageOverflow_Model_Resource_Setup</class>
+                </setup>
+            </easylife_mageoverflow_setup>
+        </resources>
+        <blocks>
+            <easylife_mageoverflow>
+                <class>Easylife_MageOverflow_Block</class>
+            </easylife_mageoverflow>
+        </blocks>
+        <helpers>
+            <easylife_mageoverflow>
+                <class>Easylife_MageOverflow_Helper</class>
+            </easylife_mageoverflow>
+        </helpers>
+        <models>
+            <easylife_mageoverflow>
+                <class>Easylife_MageOverflow_Model</class>
+                <resourceModel>easylife_mageoverflow_resource</resourceModel>
+            </easylife_mageoverflow>
+            <easylife_mageoverflow_resource>
+                <class>Easylife_MageOverflow_Model_Resource</class>
+                <entities>
+                    <overflowuser>
+                        <table>easylife_mageoverflow_overflowuser</table>
+                    </overflowuser>
+                </entities>
+            </easylife_mageoverflow_resource>
+        </models>
+    </global>
+    <adminhtml>
+        <layout>
+            <updates>
+                <easylife_mageoverflow>
+                    <file>easylife_mageoverflow.xml</file>
+                </easylife_mageoverflow>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Easylife_MageOverflow>
+                    <files>
+                        <default>Easylife_MageOverflow.csv</default>
+                    </files>
+                </Easylife_MageOverflow>
+            </modules>
+        </translate>
+    </adminhtml>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <Easylife_MageOverflow before="Mage_Adminhtml">Easylife_MageOverflow_Adminhtml</Easylife_MageOverflow>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <default>
+        <easylife_mageoverflow>
+            <overflowuser>
+                <base_feed_link>http://magento.stackexchange.com/feeds/user/</base_feed_link>
+                <awake>3</awake>
+            </overflowuser>
+        </easylife_mageoverflow>
+    </default>
+</config>
