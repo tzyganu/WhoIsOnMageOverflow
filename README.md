@@ -13,7 +13,7 @@ What it does?
 It adds a menu to the backend of your magento instance.
 At the end of that menu you will find a CRUD section that let's you manage the people you want to follow that have accounts on <a href="http://magento.stackexchange.com" target="_blank">http://magento.stackexchange.com</a>.
 
-In the grid of the module you will see their last activity (answer giver) and if they are awake or not.
+In the grid of the module you will see their last activity (answer given) and if they are awake or not.
 
 By default the module comes with 2 users. <a href="http://magento.stackexchange.com/users/336/philwinkle" target="_blank">philwinkle</a> and <a href="http://magento.stackexchange.com/users/146/marius" target="_blank">Marius</a>.
 If you want to add more, just use the form and provide the stackexchange user id.
