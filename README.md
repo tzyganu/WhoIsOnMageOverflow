@@ -24,10 +24,9 @@ If you want to be part of the initial data set, just post an <a href="https://gi
 Default Users.
 -----------
 
- - philwinkle(http://magento.stackexchange.com/users/336/philwinkle) - since the beginning of time
- - Marius (http://magento.stackexchange.com/users/146/marius) - since the beginning of time
- 
- - [Cristi](http://magento.stackexchange.com/users/16755/cristi) since version 1.0.1
+ - [philwinkle - 336](http://magento.stackexchange.com/users/336/philwinkle) - since the beginning of time
+ - [Marius - 146](http://magento.stackexchange.com/users/146/marius) - since the beginning of time
+ - [Cristi - 16755](http://magento.stackexchange.com/users/16755/cristi) since version 1.0.1
 
 Uninstall:
 ---------
