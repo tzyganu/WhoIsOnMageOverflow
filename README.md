@@ -18,7 +18,7 @@ In the grid of the module you will see their last activity (answer given) and if
 Initialy the module had 2 default users: <a href="http://magento.stackexchange.com/users/336/philwinkle" target="_blank">philwinkle</a> and <a href="http://magento.stackexchange.com/users/146/marius" target="_blank">Marius</a>.
 If you want to add more, just use the form and provide the stackexchange user id.
 
-If you want to be part of the initial data set, just post an <a href="https://github.com/tzyganu/WhoIsOnMageOverflow/issues" target="_blank">issue</a> saying that you want to.
+If you want to be part of the initial data set, just post an <a href="https://github.com/tzyganu/WhoIsOnMageOverflow/issues" target="_blank">issue</a> saying that you want to. But you must have at least 400 points on magento.stackexchange to be part of the initial data set.
 
 
 Default Users.
