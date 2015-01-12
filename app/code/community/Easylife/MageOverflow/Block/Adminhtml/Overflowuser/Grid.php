@@ -166,7 +166,6 @@ class Easylife_MageOverflow_Block_Adminhtml_Overflowuser_Grid
                 $lastSeen = false;
                 $author = false;
                 foreach($feed as $entry){
-                    //echo "<pre>"; print_r($entry->getDateModified());exit;
                     $author = $entry->getAuthor();
                     $lastDate = new DateTime();
                     $lastDate->setTimestamp($entry->getDateModified()->getTimestamp());
@@ -187,7 +186,7 @@ class Easylife_MageOverflow_Block_Adminhtml_Overflowuser_Grid
                         $lastSeen->i,
                         $lastSeen->s
                     );
-                    $isSleeping = $lastSeen->h >= $limit;
+                    $isSleeping = ($lastSeen->d > 0) || ($lastSeen->h >= $limit);
                     $asleep =  $isSleeping ? $this->__('Is sleeping') : $this->__('Is awake');
                     $item->setLastSeen($output);
                     $item->setStatus($asleep);

@@ -15,10 +15,19 @@ At the end of that menu you will find a CRUD section that let's you manage the p
 
 In the grid of the module you will see their last activity (answer given) and if they are awake or not.
 
-By default the module comes with 2 users. <a href="http://magento.stackexchange.com/users/336/philwinkle" target="_blank">philwinkle</a> and <a href="http://magento.stackexchange.com/users/146/marius" target="_blank">Marius</a>.
+Initialy the module had 2 default users: <a href="http://magento.stackexchange.com/users/336/philwinkle" target="_blank">philwinkle</a> and <a href="http://magento.stackexchange.com/users/146/marius" target="_blank">Marius</a>.
 If you want to add more, just use the form and provide the stackexchange user id.
 
 If you want to be part of the initial data set, just post an <a href="https://github.com/tzyganu/WhoIsOnMageOverflow/issues" target="_blank">issue</a> saying that you want to.
+
+
+Default Users.
+-----------
+
+ - philwinkle(http://magento.stackexchange.com/users/336/philwinkle) - since the beginning of time
+ - Marius (http://magento.stackexchange.com/users/146/marius) - since the beginning of time
+ 
+ - [Cristi](http://magento.stackexchange.com/users/16755/cristi) since version 1.0.1
 
 Uninstall:
 ---------
